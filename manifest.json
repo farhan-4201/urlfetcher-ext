@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Fetch FB Tab Info",
+    "version": "1.0",
+    "description": "Fetches the tab ID and URL of the active Facebook tab.",
+    "permissions": [
+      "tabs",
+      "activeTab",
+      "storage"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_title": "Fetch FB Tab Info"
+    }
+  }
+  
